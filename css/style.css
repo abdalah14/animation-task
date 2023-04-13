@@ -1,0 +1,108 @@
+body {
+    background-image: url(../images/261213_0.jpeg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+div {
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+@keyframes change {
+    0%{
+        left: 0;
+    }
+    25% {
+        left: 25%;
+    }
+    50% {
+        left: 50%;
+    }
+    75%{
+        left: 75%;
+    }
+    100%{
+       left: 82%;
+    }
+
+}
+.div1 {
+    top: 0;
+    left: 0;
+    background-image: url(../images/img1.jpeg);
+}
+.div2 {
+    background-image: url(../images/img2.jpeg);
+    top: 205px;
+    right: 0;
+    animation-delay: 3s;
+}
+.div3 {
+    background-image: url(../images/img3.jpeg);
+    top: 410px;
+    left: 0;
+    animation-delay: 6s;
+}
+.div4 {
+    background-image: url(../images/img4.jpeg);
+    top: 615px;
+    right: 0;
+    animation-delay: 9s;
+}
+.div5 {
+    background-image: url(../images/img5.jpeg);
+    top: 820px;
+    left: 0;
+    animation-delay: 12s;
+}
+.div6 {
+    background-image: url(../images/img6.jpeg);
+    top: 1025px;
+    right: 0;
+    animation-delay: 15s;
+}
+.div7 {
+    background-image: url(../images/img7.jpeg);
+    top: 1230px;
+    left: 0;
+    animation-delay: 18s;
+}
+.div8 {
+    background-image: url(../images/img8.jpeg);
+    top: 1435px;
+    right: 0;
+    animation-delay: 21s;
+}
+.div2, .div4, .div6, .div8 {
+    animation-name: change2;
+    animation-fill-mode: forwards;
+}
+@keyframes change2 {
+    0%{
+        right: 0;
+    }
+    25% {
+        right: 25%;
+    }
+    50% {
+        right: 50%;
+    }
+    75%{
+        right: 75%;
+    }
+    100%{
+        right: 82%;
+    }
+}
